@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'Solana token list is a library for parsing supported token in Solana blockchain.'
 
-  s.homepage         = 'https://github.com/p2p-org/SolanaToken'
+  s.homepage         = 'https://github.com/p2p-org/solana-token-list-swift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Chung Tran' => 'bigearsenal@gmail.com' }
-  s.source           = { :git => 'https://github.com/p2p-org/SolanaToken.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/p2p-org/solana-token-list-swift.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/P2Pvalidator'
   s.swift_version    = '5.2'
   s.ios.deployment_target = '12.0'
