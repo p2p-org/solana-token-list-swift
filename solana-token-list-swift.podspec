@@ -28,9 +28,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/p2p-org/solana-token-list-swift.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/P2Pvalidator'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'solana-token-list-swift/Classes/**/*'
+  s.resource = 'solana-token-list-swift/Classes/Resources/tokens.json'
   
   # s.resource_bundles = {
   #   'solana-token-list-swift' => ['solana-token-list-swift/Assets/*.png']
