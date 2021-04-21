@@ -27,3 +27,27 @@ Chung Tran, bigearsenal@gmail.com
 ## License
 
 solana-token-list-swift is available under the MIT license. See the LICENSE file for more info.
+
+## Some recognization
+Unique tags
+
+```swift
+[
+    "wrapped-sollet",
+    "wrapped",
+    "wormhole",
+    "trading",
+    "stake-pool",
+    "stablecoin",
+    "safestlaunchpad",
+    "nft",
+    "mango",
+    "lp-token",
+    "leveraged",
+    "index",
+    "ethereum",
+    "bull",
+    "bear",
+    "Algos"
+]
+```
