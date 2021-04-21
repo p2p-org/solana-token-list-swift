@@ -1,8 +1,8 @@
 {
   "name": "solana-token-list-swift",
-  "version": "0.1.0",
-  "summary": "Solana token list is a library for parsing supported token in Solana blockchain.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.1",
+  "summary": "Solana wrapped token list parser",
+  "description": "Solana token list is a library for parsing supported token in Solana blockchain.",
   "homepage": "https://github.com/p2p-org/solana-token-list-swift",
   "license": {
     "type": "MIT",
@@ -13,12 +13,14 @@
   },
   "source": {
     "git": "https://github.com/p2p-org/solana-token-list-swift.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "social_media_url": "https://twitter.com/P2Pvalidator",
+  "swift_versions": "5.2",
   "platforms": {
     "ios": "12.0"
   },
   "source_files": "solana-token-list-swift/Classes/**/*",
-  "resources": "solana-token-list-swift/Classes/Resources/tokens.json"
+  "resources": "solana-token-list-swift/Classes/Resources/tokens.json",
+  "swift_version": "5.2"
 }

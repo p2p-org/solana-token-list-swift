@@ -1,5 +1,5 @@
 PODS:
-  - solana-token-list-swift (0.1.0)
+  - solana-token-list-swift (0.0.1)
 
 DEPENDENCIES:
   - solana-token-list-swift (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  solana-token-list-swift: 644d1973955c1f0a374ebcab7664f3fcd6c61c3a
+  solana-token-list-swift: 7103da475c7067a40e93b2c076dea8d85bb34b54
 
 PODFILE CHECKSUM: de8ffeafa7488861aa5796803786b6ebf6dd460b
 

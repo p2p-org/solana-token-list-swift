@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		082A8AAD4938AC4ACA884B0BDC8E3139 /* tokens.json in Sources */ = {isa = PBXBuildFile; fileRef = 699321D10111F18144C1F709BF3E56A7 /* tokens.json */; };
-		22F97EC656F42BF9A1B64F561F04AB36 /* solana-token-list-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA8DAD3930579CE4AA49966244DF0A2 /* solana-token-list-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AB6038799C69EF19BDA669DD824385C /* tokens.json in Resources */ = {isa = PBXBuildFile; fileRef = 699321D10111F18144C1F709BF3E56A7 /* tokens.json */; };
+		1224CEC06C3D641F3839669F4FA93AE4 /* tokens.json in Sources */ = {isa = PBXBuildFile; fileRef = FD622DD26A336CA098363EFE7F9475CA /* tokens.json */; };
+		3961CF1FBD872991289F69E7A3011C12 /* solana-token-list-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF5AD846156912E137FE1FBC9BDAD7E /* solana-token-list-swift-dummy.m */; };
+		460F988D79AE67650443C7EC28CDE2D2 /* SolanaTokensListParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E723D697EADFF0C2F6F896B76F7D28DF /* SolanaTokensListParser.swift */; };
 		52AF58B42EBBA288F0CE9D97DCEA9683 /* Pods-solana-token-list-swift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2259DC359025DF32B1DE7891116321 /* Pods-solana-token-list-swift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6434FDE3404870D1F7A5E401C97A7CE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6A1705D83321A60FB763E5A40594173C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		77AF157192461398E48678307A2C4957 /* SolanaTokensList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E83C4B9FAFBCB25E42A3089B5BE4CCA /* SolanaTokensList.swift */; };
-		7C9711067C3002386BA650EF625CDEBB /* SolanaTokensListParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2E212C35695FE06073632F7666FEC /* SolanaTokensListParser.swift */; };
-		BCF579CA262FEA8E00E73226 /* tokens-logo.json in Resources */ = {isa = PBXBuildFile; fileRef = BCF579C9262FEA8E00E73226 /* tokens-logo.json */; };
-		DAE03C05354FCFCD1E4B1066A98A8191 /* solana-token-list-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F02DBEEA3D1720C153283E3CB2722506 /* solana-token-list-swift-dummy.m */; };
+		C8E86EB71FD1A142C91B11476E6ECBA8 /* tokens.json in Resources */ = {isa = PBXBuildFile; fileRef = FD622DD26A336CA098363EFE7F9475CA /* tokens.json */; };
+		D107D10010F527BAFD4F0E2B50A0F443 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EA8D2764DF7385E538DF2CE368FD1E02 /* SolanaTokensList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2C579C57408D44BACAB08C2EE72039 /* SolanaTokensList.swift */; };
+		F5289F0F24A46B858AF17D1468D76826 /* solana-token-list-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A32202E82E06AC3CFA8EB6DFEFC100C6 /* solana-token-list-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAF839BF2640A3A242AD6F7D84003F0B /* tokens-logo.json in Sources */ = {isa = PBXBuildFile; fileRef = 0A91B87C761DF601600419B6FFC1DBED /* tokens-logo.json */; };
 		FFA1614DB867835A5C20C71CE61E9D7B /* Pods-solana-token-list-swift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695DD636C9A879C2278D3BEBC32E4F1 /* Pods-solana-token-list-swift_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F93CBA12D86C51099A5C6DC25D60D6D0 /* PBXContainerItemProxy */ = {
+		0AEC302BD6C450F6A3127D2ED246ABB9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -33,31 +33,31 @@
 /* Begin PBXFileReference section */
 		013C9B2F52396919520C22A30F2645E1 /* Pods-solana-token-list-swift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-solana-token-list-swift_Tests.modulemap"; sourceTree = "<group>"; };
 		0A2C75FDD41869BED5AC431A4CF77D66 /* Pods-solana-token-list-swift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-solana-token-list-swift_Tests-Info.plist"; sourceTree = "<group>"; };
+		0A91B87C761DF601600419B6FFC1DBED /* tokens-logo.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = "tokens-logo.json"; sourceTree = "<group>"; };
+		1993737D40B90833815098B86D8E0CA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		289BDD4EA6836B8B0C2290F0DDB7F1DA /* Pods-solana-token-list-swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-solana-token-list-swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3E83C4B9FAFBCB25E42A3089B5BE4CCA /* SolanaTokensList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SolanaTokensList.swift; sourceTree = "<group>"; };
-		3FD2E212C35695FE06073632F7666FEC /* SolanaTokensListParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SolanaTokensListParser.swift; path = "solana-token-list-swift/Classes/SolanaTokensListParser.swift"; sourceTree = "<group>"; };
+		3DF5AD846156912E137FE1FBC9BDAD7E /* solana-token-list-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "solana-token-list-swift-dummy.m"; sourceTree = "<group>"; };
 		552121EA9109B7BCD579A987EAE2AD73 /* Pods-solana-token-list-swift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-solana-token-list-swift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		699321D10111F18144C1F709BF3E56A7 /* tokens.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = tokens.json; sourceTree = "<group>"; };
-		718441363EA5C2CA711F75F8D2293458 /* solana-token-list-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "solana-token-list-swift.modulemap"; sourceTree = "<group>"; };
+		59F01FE8DD6349FFCAEB82ED512363AC /* solana-token-list-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "solana-token-list-swift-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75B715FEC7063EBE81D0F66ECA32B935 /* solana-token-list-swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "solana-token-list-swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7695DD636C9A879C2278D3BEBC32E4F1 /* Pods-solana-token-list-swift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-solana-token-list-swift_Tests-dummy.m"; sourceTree = "<group>"; };
 		8224DA975A400BCD21F3295ABA5F30F4 /* Pods-solana-token-list-swift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-solana-token-list-swift_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		93B52E541F45C4FF54B24AE2DA69248A /* solana_token_list_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = solana_token_list_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2259DC359025DF32B1DE7891116321 /* Pods-solana-token-list-swift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-solana-token-list-swift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D8FF3B79B4C275059F30625CD8AE51A /* Pods-solana-token-list-swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-solana-token-list-swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A09E967858F6BE846A2A19619FF4F9A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		A114A51983F8F7C5DC91A885E60DFDD8 /* solana-token-list-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "solana-token-list-swift-prefix.pch"; sourceTree = "<group>"; };
+		A32202E82E06AC3CFA8EB6DFEFC100C6 /* solana-token-list-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "solana-token-list-swift-umbrella.h"; sourceTree = "<group>"; };
 		A37B36BCCD63778D806E7FB039793BF0 /* Pods-solana-token-list-swift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-solana-token-list-swift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B97B27429CACFE01D9BC93B285F0BF67 /* solana-token-list-swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "solana-token-list-swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BCF579C9262FEA8E00E73226 /* tokens-logo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "tokens-logo.json"; sourceTree = "<group>"; };
-		CF5EE621EBD24DDDB58521368F2DC6DC /* solana-token-list-swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "solana-token-list-swift-Info.plist"; sourceTree = "<group>"; };
-		D9AF18C6856F7EB67B7F378175CAACA8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DAC2959126BA211C0E3E25CFB2248301 /* solana-token-list-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "solana-token-list-swift.release.xcconfig"; sourceTree = "<group>"; };
-		EA09A02A1E53E6C4E3D11852B4A601AB /* solana-token-list-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "solana-token-list-swift.debug.xcconfig"; sourceTree = "<group>"; };
-		F02DBEEA3D1720C153283E3CB2722506 /* solana-token-list-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "solana-token-list-swift-dummy.m"; sourceTree = "<group>"; };
+		A557E7D0B956EB3264175C623BB6803A /* solana-token-list-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "solana-token-list-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		B5569D39633561AB3AD71A8397EF0146 /* solana-token-list-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "solana-token-list-swift.modulemap"; sourceTree = "<group>"; };
+		B62C2BB6CD4CD24F4C95F19CC396D443 /* solana-token-list-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "solana-token-list-swift.release.xcconfig"; sourceTree = "<group>"; };
+		CE436EA820E18C60D4BFB2B26CC09F3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D14DD46835A89D6B93CDA966E4CFB74E /* solana-token-list-swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "solana-token-list-swift-Info.plist"; sourceTree = "<group>"; };
+		DD2C579C57408D44BACAB08C2EE72039 /* SolanaTokensList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SolanaTokensList.swift; sourceTree = "<group>"; };
+		E723D697EADFF0C2F6F896B76F7D28DF /* SolanaTokensListParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SolanaTokensListParser.swift; path = "solana-token-list-swift/Classes/SolanaTokensListParser.swift"; sourceTree = "<group>"; };
 		F5479EAA83575294C60EE82F1358C8F9 /* Pods_solana_token_list_swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_solana_token_list_swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCA8DAD3930579CE4AA49966244DF0A2 /* solana-token-list-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "solana-token-list-swift-umbrella.h"; sourceTree = "<group>"; };
+		FD622DD26A336CA098363EFE7F9475CA /* tokens.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = tokens.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,28 +69,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6ACEC87C6A6C1986404BBEAA4809085C /* Frameworks */ = {
+		DC6A579362C514A2C4C7B5B6ADD48E2B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A1705D83321A60FB763E5A40594173C /* Foundation.framework in Frameworks */,
+				D107D10010F527BAFD4F0E2B50A0F443 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A7D6B01E0AC5974DA60E2802A68E706 /* solana-token-list-swift */ = {
+		0CB27176B620E99AB68A371EB72E2D57 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3FD2E212C35695FE06073632F7666FEC /* SolanaTokensListParser.swift */,
-				50B8E778CE64C77B925D3A569C95BE48 /* Models */,
-				31A41AD0F914251367F731CA38AD6608 /* Pod */,
-				E018C4A06ED27859A21560E95DA89DB6 /* Resources */,
-				6E0DE9E8DA84C6B9853D1D0ECB5D217F /* Support Files */,
+				1993737D40B90833815098B86D8E0CA2 /* LICENSE */,
+				CE436EA820E18C60D4BFB2B26CC09F3C /* README.md */,
+				75B715FEC7063EBE81D0F66ECA32B935 /* solana-token-list-swift.podspec */,
 			);
-			name = "solana-token-list-swift";
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		1E50442F06F1D600B374907311A30783 /* Products */ = {
@@ -110,31 +107,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		31A41AD0F914251367F731CA38AD6608 /* Pod */ = {
+		43CE8B49DF1AC234C9B433D9827E46E0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A09E967858F6BE846A2A19619FF4F9A5 /* LICENSE */,
-				D9AF18C6856F7EB67B7F378175CAACA8 /* README.md */,
-				B97B27429CACFE01D9BC93B285F0BF67 /* solana-token-list-swift.podspec */,
+				B5569D39633561AB3AD71A8397EF0146 /* solana-token-list-swift.modulemap */,
+				3DF5AD846156912E137FE1FBC9BDAD7E /* solana-token-list-swift-dummy.m */,
+				D14DD46835A89D6B93CDA966E4CFB74E /* solana-token-list-swift-Info.plist */,
+				59F01FE8DD6349FFCAEB82ED512363AC /* solana-token-list-swift-prefix.pch */,
+				A32202E82E06AC3CFA8EB6DFEFC100C6 /* solana-token-list-swift-umbrella.h */,
+				A557E7D0B956EB3264175C623BB6803A /* solana-token-list-swift.debug.xcconfig */,
+				B62C2BB6CD4CD24F4C95F19CC396D443 /* solana-token-list-swift.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/solana-token-list-swift";
 			sourceTree = "<group>";
 		};
 		4B0D71CD337188D4B089D1ADED51EA08 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0A7D6B01E0AC5974DA60E2802A68E706 /* solana-token-list-swift */,
+				668E79F58AA0832D7FBA20487157A627 /* solana-token-list-swift */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		50B8E778CE64C77B925D3A569C95BE48 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				3E83C4B9FAFBCB25E42A3089B5BE4CCA /* SolanaTokensList.swift */,
-			);
-			name = Models;
-			path = "solana-token-list-swift/Classes/Models";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -145,19 +138,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6E0DE9E8DA84C6B9853D1D0ECB5D217F /* Support Files */ = {
+		668E79F58AA0832D7FBA20487157A627 /* solana-token-list-swift */ = {
 			isa = PBXGroup;
 			children = (
-				718441363EA5C2CA711F75F8D2293458 /* solana-token-list-swift.modulemap */,
-				F02DBEEA3D1720C153283E3CB2722506 /* solana-token-list-swift-dummy.m */,
-				CF5EE621EBD24DDDB58521368F2DC6DC /* solana-token-list-swift-Info.plist */,
-				A114A51983F8F7C5DC91A885E60DFDD8 /* solana-token-list-swift-prefix.pch */,
-				FCA8DAD3930579CE4AA49966244DF0A2 /* solana-token-list-swift-umbrella.h */,
-				EA09A02A1E53E6C4E3D11852B4A601AB /* solana-token-list-swift.debug.xcconfig */,
-				DAC2959126BA211C0E3E25CFB2248301 /* solana-token-list-swift.release.xcconfig */,
+				E723D697EADFF0C2F6F896B76F7D28DF /* SolanaTokensListParser.swift */,
+				D13A7E808FA532E88D631FC325FAC9E7 /* Models */,
+				0CB27176B620E99AB68A371EB72E2D57 /* Pod */,
+				BE3B8874231458E9BD82849232D3498F /* Resources */,
+				43CE8B49DF1AC234C9B433D9827E46E0 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/solana-token-list-swift";
+			name = "solana-token-list-swift";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BE3B8874231458E9BD82849232D3498F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD622DD26A336CA098363EFE7F9475CA /* tokens.json */,
+				0A91B87C761DF601600419B6FFC1DBED /* tokens-logo.json */,
+			);
+			name = Resources;
+			path = "solana-token-list-swift/Classes/Resources";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -169,6 +170,15 @@
 				1E50442F06F1D600B374907311A30783 /* Products */,
 				24F2ABA1753E02450DAFC81BB73F12E2 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D13A7E808FA532E88D631FC325FAC9E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD2C579C57408D44BACAB08C2EE72039 /* SolanaTokensList.swift */,
+			);
+			name = Models;
+			path = "solana-token-list-swift/Classes/Models";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -196,16 +206,6 @@
 			path = "Target Support Files/Pods-solana-token-list-swift_Tests";
 			sourceTree = "<group>";
 		};
-		E018C4A06ED27859A21560E95DA89DB6 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				699321D10111F18144C1F709BF3E56A7 /* tokens.json */,
-				BCF579C9262FEA8E00E73226 /* tokens-logo.json */,
-			);
-			name = Resources;
-			path = "solana-token-list-swift/Classes/Resources";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -217,11 +217,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77EFC7ECE42BD41BB24A9A6811D740A5 /* Headers */ = {
+		2D250C0D388685538929879FF8B59AB3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22F97EC656F42BF9A1B64F561F04AB36 /* solana-token-list-swift-umbrella.h in Headers */,
+				F5289F0F24A46B858AF17D1468D76826 /* solana-token-list-swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +240,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4B1492EC62C87EA81575E92B6C7183E1 /* PBXTargetDependency */,
+				70455BC0EE6BC6543FB18B080A1EEB90 /* PBXTargetDependency */,
 			);
 			name = "Pods-solana-token-list-swift_Tests";
 			productName = "Pods-solana-token-list-swift_Tests";
@@ -249,12 +249,12 @@
 		};
 		330E971961CBCAF2C1F2ADD4CA2413EB /* solana-token-list-swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B110E06F1D736BB753E38F54899A04E /* Build configuration list for PBXNativeTarget "solana-token-list-swift" */;
+			buildConfigurationList = 39F379DFB17BBA2DC793F418C27153A3 /* Build configuration list for PBXNativeTarget "solana-token-list-swift" */;
 			buildPhases = (
-				77EFC7ECE42BD41BB24A9A6811D740A5 /* Headers */,
-				70BC62C24C1A13342C24E9CD8DE4B78B /* Sources */,
-				6ACEC87C6A6C1986404BBEAA4809085C /* Frameworks */,
-				9D65B23817D069ACD3E3CE23FCD68A47 /* Resources */,
+				2D250C0D388685538929879FF8B59AB3 /* Headers */,
+				68DE5D73FB0FA6AB07EA9DCBC4681D5C /* Sources */,
+				DC6A579362C514A2C4C7B5B6ADD48E2B /* Frameworks */,
+				DB44D855F0220F6B94E6946A4E29341D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -272,7 +272,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -301,18 +301,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D65B23817D069ACD3E3CE23FCD68A47 /* Resources */ = {
+		DB44D855F0220F6B94E6946A4E29341D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCF579CA262FEA8E00E73226 /* tokens-logo.json in Resources */,
-				4AB6038799C69EF19BDA669DD824385C /* tokens.json in Resources */,
+				C8E86EB71FD1A142C91B11476E6ECBA8 /* tokens.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		68DE5D73FB0FA6AB07EA9DCBC4681D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3961CF1FBD872991289F69E7A3011C12 /* solana-token-list-swift-dummy.m in Sources */,
+				EA8D2764DF7385E538DF2CE368FD1E02 /* SolanaTokensList.swift in Sources */,
+				460F988D79AE67650443C7EC28CDE2D2 /* SolanaTokensListParser.swift in Sources */,
+				FAF839BF2640A3A242AD6F7D84003F0B /* tokens-logo.json in Sources */,
+				1224CEC06C3D641F3839669F4FA93AE4 /* tokens.json in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6C9EC39EED9B29B5A6CBA06E002CCA7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -321,25 +332,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70BC62C24C1A13342C24E9CD8DE4B78B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DAE03C05354FCFCD1E4B1066A98A8191 /* solana-token-list-swift-dummy.m in Sources */,
-				77AF157192461398E48678307A2C4957 /* SolanaTokensList.swift in Sources */,
-				7C9711067C3002386BA650EF625CDEBB /* SolanaTokensListParser.swift in Sources */,
-				082A8AAD4938AC4ACA884B0BDC8E3139 /* tokens.json in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4B1492EC62C87EA81575E92B6C7183E1 /* PBXTargetDependency */ = {
+		70455BC0EE6BC6543FB18B080A1EEB90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "solana-token-list-swift";
 			target = 330E971961CBCAF2C1F2ADD4CA2413EB /* solana-token-list-swift */;
-			targetProxy = F93CBA12D86C51099A5C6DC25D60D6D0 /* PBXContainerItemProxy */;
+			targetProxy = 0AEC302BD6C450F6A3127D2ED246ABB9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -415,7 +415,6 @@
 			baseConfigurationReference = 289BDD4EA6836B8B0C2290F0DDB7F1DA /* Pods-solana-token-list-swift_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -450,7 +449,6 @@
 			baseConfigurationReference = 9D8FF3B79B4C275059F30625CD8AE51A /* Pods-solana-token-list-swift_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -540,11 +538,10 @@
 			};
 			name = Release;
 		};
-		AFC21873E4B16A14CB9A80C32F682C5B /* Release */ = {
+		6BF4E4A84C1E775BCE5ADBE46AEE8A9E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAC2959126BA211C0E3E25CFB2248301 /* solana-token-list-swift.release.xcconfig */;
+			baseConfigurationReference = B62C2BB6CD4CD24F4C95F19CC396D443 /* solana-token-list-swift.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -565,7 +562,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -573,11 +570,10 @@
 			};
 			name = Release;
 		};
-		DC8F6520D88FC2C84BD0DFAAE817A46B /* Debug */ = {
+		F64BA19C3534603348F634A1971AAEA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA09A02A1E53E6C4E3D11852B4A601AB /* solana-token-list-swift.debug.xcconfig */;
+			baseConfigurationReference = A557E7D0B956EB3264175C623BB6803A /* solana-token-list-swift.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -598,7 +594,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -617,20 +613,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		39F379DFB17BBA2DC793F418C27153A3 /* Build configuration list for PBXNativeTarget "solana-token-list-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64BA19C3534603348F634A1971AAEA3 /* Debug */,
+				6BF4E4A84C1E775BCE5ADBE46AEE8A9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
 				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8B110E06F1D736BB753E38F54899A04E /* Build configuration list for PBXNativeTarget "solana-token-list-swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DC8F6520D88FC2C84BD0DFAAE817A46B /* Debug */,
-				AFC21873E4B16A14CB9A80C32F682C5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
