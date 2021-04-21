@@ -22,8 +22,19 @@ public struct SolanaTokenTag: Decodable {
 }
 
 public struct SolanaToken: Decodable {
+    public init(_tags: [String], chainId: Int, address: String, symbol: String, name: String, decimals: UInt, logoURI: String?, tags: [SolanaTokenTag] = [], extensions: SolanaTokenExtensions?) {
+        self._tags = _tags
+        self.chainId = chainId
+        self.address = address
+        self.symbol = symbol
+        self.name = name
+        self.decimals = decimals
+        self.logoURI = logoURI
+        self.tags = tags
+        self.extensions = extensions
+    }
+    
     let _tags: [String]
-    private(set) var liquidity: Bool?
     
     public let chainId: Int
     public let address: String
@@ -34,43 +45,8 @@ public struct SolanaToken: Decodable {
     public var tags: [SolanaTokenTag] = []
     public let extensions: SolanaTokenExtensions?
     
-    public var pubkey: String?
-    public var lamports: UInt64?
-    
     enum CodingKeys: String, CodingKey {
         case chainId, address, symbol, name, decimals, logoURI, extensions, _tags = "tags"
-    }
-    
-    public var isLiquidity: Bool {
-        liquidity == true
-    }
-    
-    public static func nativeSolana(
-        pubkey: String?,
-        lamports: UInt64?
-    ) -> SolanaToken {
-        .init(
-            _tags: ["stablecoin"],
-            liquidity: true,
-            chainId: 101,
-            address: "So11111111111111111111111111111111111111112",
-            symbol: "SOL",
-            name: "Solana",
-            decimals: 9,
-            logoURI: nil,
-            tags: [
-                SolanaTokenTag(
-                    name: "stablecoin",
-                    description: "Tokens that are fixed to an external asset, e.g. the US dollar"
-                )
-            ],
-            extensions: .init(
-                website: "https://solana.com/",
-                bridgeContract: nil
-            ),
-            pubkey: pubkey,
-            lamports: lamports
-        )
     }
 }
 
