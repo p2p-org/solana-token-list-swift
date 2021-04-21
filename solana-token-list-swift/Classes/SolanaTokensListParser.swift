@@ -22,8 +22,8 @@ public class SolanaTokensListParser {
         // map tags
         list.tokens = list.tokens.map {
             var item = $0
-            item.tags = item._tags.compactMap {
-                list.tags[$0]
+            item.tags = item._tags.map {
+                list.tags[$0] ?? SolanaTokenTag(name: $0, description: $0)
             }
             return item
         }
