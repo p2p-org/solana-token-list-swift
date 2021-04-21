@@ -1,6 +1,6 @@
 # SolanaToken
 
-[![CI Status](https://img.shields.io/travis/Chung Tran/SolanaToken.svg?style=flat)](https://travis-ci.org/Chung Tran/SolanaToken)
+[![CI Status](https://img.shields.io/travis/bigearsenal/SolanaToken.svg?style=flat)](https://travis-ci.org/bigearsenal/SolanaToken)
 [![Version](https://img.shields.io/cocoapods/v/SolanaToken.svg?style=flat)](https://cocoapods.org/pods/SolanaToken)
 [![License](https://img.shields.io/cocoapods/l/SolanaToken.svg?style=flat)](https://cocoapods.org/pods/SolanaToken)
 [![Platform](https://img.shields.io/cocoapods/p/SolanaToken.svg?style=flat)](https://cocoapods.org/pods/SolanaToken)
@@ -27,3 +27,28 @@ Chung Tran, bigearsenal@gmail.com
 ## License
 
 SolanaToken is available under the MIT license. See the LICENSE file for more info.
+
+## Some recognization
+Unique tags
+
+```swift
+[
+    "wrapped-sollet",
+    "wrapped",
+    "wormhole",
+    "trading",
+    "stake-pool",
+    "stablecoin",
+    "safestlaunchpad",
+    "nft",
+    "mango",
+    "lp-token",
+    "leveraged",
+    "index",
+    "ethereum",
+    "bull",
+    "bear",
+    "Algos"
+]
+```
+

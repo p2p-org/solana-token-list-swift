@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E8EDAB1104D1391AE1C68A4090C3862 /* SolanaTokensList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB688C5ED9E0D1ED4DCAA060533181D /* SolanaTokensList.swift */; };
+		3B78BE1C4D2C2ABE752D56489929DCE3 /* tokens.json in Resources */ = {isa = PBXBuildFile; fileRef = 959316A08BFDE20F67557FD68B91E2DB /* tokens.json */; };
+		3F36A548663D14C304452B032692EC71 /* SolanaTokensListParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7EE73F44C5F07EA2A0B69BDE3801D5 /* SolanaTokensListParser.swift */; };
+		5D79CDCA30652CB2B164CA221484EE8F /* tokens-logo.json in Sources */ = {isa = PBXBuildFile; fileRef = 6DBEF2A9ACC192C21A3D149DF6E44C2C /* tokens-logo.json */; };
+		657E8656D4633BB17F89F6CEB4883F7E /* Pods-SolanaToken_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CD10AE78048964C32B4F0BBB0A9F91 /* Pods-SolanaToken_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66EC0322E882FD0ADB5DFEB7E4D63B49 /* SolanaToken-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA9E24B612DDDA495B846EC042AE2A7E /* SolanaToken-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C2AA02D4004A98AC6DE06E2128566C5 /* SolanaToken-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 525033F0F1C47A2BA6194138BED69861 /* SolanaToken-dummy.m */; };
+		C0BEB0B7BA860AEC25F474E180FCB4E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CFAF7C5B0881829D430370557B73A3A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EC1587DE05B891698ECF6FB2C2116922 /* tokens.json in Sources */ = {isa = PBXBuildFile; fileRef = 959316A08BFDE20F67557FD68B91E2DB /* tokens.json */; };
+		F63D593B00842AC35DD20E1200175DB4 /* Pods-SolanaToken_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDCA8D25478D673D5AB8E2139B91BAA /* Pods-SolanaToken_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79AB391C15D9EBA2DD70626246D4F947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 688D28EA9195F6CD5A9378D1F5582946;
+			remoteInfo = SolanaToken;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		061769ED7AB7C21A92B466DFA75ED7A9 /* SolanaToken.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SolanaToken.framework; path = SolanaToken.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0695852A04685E11976E8FB78088A059 /* Pods-SolanaToken_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SolanaToken_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0C71099A445CB91D4E3C2048E088311D /* Pods-SolanaToken_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SolanaToken_Tests-Info.plist"; sourceTree = "<group>"; };
+		1CD37777539882CD4361BDBBA4FF1879 /* Pods-SolanaToken_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SolanaToken_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F2DE0486F20BF67672F0B1C0439EDF9 /* Pods-SolanaToken_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SolanaToken_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		49CD10AE78048964C32B4F0BBB0A9F91 /* Pods-SolanaToken_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SolanaToken_Tests-umbrella.h"; sourceTree = "<group>"; };
+		525033F0F1C47A2BA6194138BED69861 /* SolanaToken-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SolanaToken-dummy.m"; sourceTree = "<group>"; };
+		6BB688C5ED9E0D1ED4DCAA060533181D /* SolanaTokensList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SolanaTokensList.swift; sourceTree = "<group>"; };
+		6DBEF2A9ACC192C21A3D149DF6E44C2C /* tokens-logo.json */ = {isa = PBXFileReference; includeInIndex = 1; path = "tokens-logo.json"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75577D1B774DCF289E33395DA86B8B30 /* Pods-SolanaToken_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SolanaToken_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		772C0A2A6781F6C8A3BE264B19030D53 /* Pods_SolanaToken_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SolanaToken_Tests.framework; path = "Pods-SolanaToken_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A4AC9BD454AA73C46F31C2D36E1251 /* SolanaToken.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SolanaToken.release.xcconfig; sourceTree = "<group>"; };
+		7BDCA8D25478D673D5AB8E2139B91BAA /* Pods-SolanaToken_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SolanaToken_Tests-dummy.m"; sourceTree = "<group>"; };
+		7C94DE78324123EBBCD45A82DDA30094 /* Pods-SolanaToken_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SolanaToken_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		863FB146212A2B48FBC53860D2B4AC11 /* SolanaToken.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SolanaToken.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8D7EE73F44C5F07EA2A0B69BDE3801D5 /* SolanaTokensListParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SolanaTokensListParser.swift; path = SolanaToken/Classes/SolanaTokensListParser.swift; sourceTree = "<group>"; };
+		8DC4C90B7A63515DFA6EDA2AC8211710 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		959316A08BFDE20F67557FD68B91E2DB /* tokens.json */ = {isa = PBXFileReference; includeInIndex = 1; path = tokens.json; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B277F307D03E3E54C7A2870A6A40DB21 /* Pods-SolanaToken_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SolanaToken_Tests.modulemap"; sourceTree = "<group>"; };
+		B31FEE1609234B132B228420CA599A4D /* SolanaToken-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SolanaToken-prefix.pch"; sourceTree = "<group>"; };
+		B44FE5DA24D72231D87776FBF9202DE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BA9E24B612DDDA495B846EC042AE2A7E /* SolanaToken-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SolanaToken-umbrella.h"; sourceTree = "<group>"; };
+		D270E523F03B231BE24525D5AD6C31AF /* SolanaToken.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SolanaToken.debug.xcconfig; sourceTree = "<group>"; };
+		D815BC199E56C1EA1429764B17FBA46D /* SolanaToken.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SolanaToken.modulemap; sourceTree = "<group>"; };
+		F34A4DA49AB5EEC7067367D8C98F0581 /* SolanaToken-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SolanaToken-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5692CDD35ED89DE0585F498F0AE1BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAF7C5B0881829D430370557B73A3A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09A4B36B4FCD63B33469998305FED26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BEB0B7BA860AEC25F474E180FCB4E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DEEDBC2E8A03AF748FD20CF5C8AB017 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				538230FC6C92655DF1A23220D3847E50 /* SolanaToken */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4BC29730F704083F9F124333A9C918FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				959316A08BFDE20F67557FD68B91E2DB /* tokens.json */,
+				6DBEF2A9ACC192C21A3D149DF6E44C2C /* tokens-logo.json */,
+			);
+			name = Resources;
+			path = SolanaToken/Classes/Resources;
+			sourceTree = "<group>";
+		};
+		538230FC6C92655DF1A23220D3847E50 /* SolanaToken */ = {
+			isa = PBXGroup;
+			children = (
+				8D7EE73F44C5F07EA2A0B69BDE3801D5 /* SolanaTokensListParser.swift */,
+				59188121354F7FBEB36C8A031F767F36 /* Models */,
+				FA22D167D7915D5E80D8CB3763A6CE0B /* Pod */,
+				4BC29730F704083F9F124333A9C918FB /* Resources */,
+				B778236FEC3F24A0BC2BB27B51ECA1AE /* Support Files */,
+			);
+			name = SolanaToken;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		59188121354F7FBEB36C8A031F767F36 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6BB688C5ED9E0D1ED4DCAA060533181D /* SolanaTokensList.swift */,
+			);
+			name = Models;
+			path = SolanaToken/Classes/Models;
+			sourceTree = "<group>";
+		};
+		6C4E817A411E67C95D340E0B096E5B59 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B06D3B99687EC3288F32FABB9798A /* Pods-SolanaToken_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8DBAAF9182E177E9FEE28974BC7A5A3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				772C0A2A6781F6C8A3BE264B19030D53 /* Pods_SolanaToken_Tests.framework */,
+				061769ED7AB7C21A92B466DFA75ED7A9 /* SolanaToken.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E4B06D3B99687EC3288F32FABB9798A /* Pods-SolanaToken_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B277F307D03E3E54C7A2870A6A40DB21 /* Pods-SolanaToken_Tests.modulemap */,
+				1CD37777539882CD4361BDBBA4FF1879 /* Pods-SolanaToken_Tests-acknowledgements.markdown */,
+				75577D1B774DCF289E33395DA86B8B30 /* Pods-SolanaToken_Tests-acknowledgements.plist */,
+				7BDCA8D25478D673D5AB8E2139B91BAA /* Pods-SolanaToken_Tests-dummy.m */,
+				7C94DE78324123EBBCD45A82DDA30094 /* Pods-SolanaToken_Tests-frameworks.sh */,
+				0C71099A445CB91D4E3C2048E088311D /* Pods-SolanaToken_Tests-Info.plist */,
+				49CD10AE78048964C32B4F0BBB0A9F91 /* Pods-SolanaToken_Tests-umbrella.h */,
+				3F2DE0486F20BF67672F0B1C0439EDF9 /* Pods-SolanaToken_Tests.debug.xcconfig */,
+				0695852A04685E11976E8FB78088A059 /* Pods-SolanaToken_Tests.release.xcconfig */,
+			);
+			name = "Pods-SolanaToken_Tests";
+			path = "Target Support Files/Pods-SolanaToken_Tests";
+			sourceTree = "<group>";
+		};
+		B778236FEC3F24A0BC2BB27B51ECA1AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D815BC199E56C1EA1429764B17FBA46D /* SolanaToken.modulemap */,
+				525033F0F1C47A2BA6194138BED69861 /* SolanaToken-dummy.m */,
+				F34A4DA49AB5EEC7067367D8C98F0581 /* SolanaToken-Info.plist */,
+				B31FEE1609234B132B228420CA599A4D /* SolanaToken-prefix.pch */,
+				BA9E24B612DDDA495B846EC042AE2A7E /* SolanaToken-umbrella.h */,
+				D270E523F03B231BE24525D5AD6C31AF /* SolanaToken.debug.xcconfig */,
+				77A4AC9BD454AA73C46F31C2D36E1251 /* SolanaToken.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SolanaToken";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3DEEDBC2E8A03AF748FD20CF5C8AB017 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8DBAAF9182E177E9FEE28974BC7A5A3F /* Products */,
+				6C4E817A411E67C95D340E0B096E5B59 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA22D167D7915D5E80D8CB3763A6CE0B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8DC4C90B7A63515DFA6EDA2AC8211710 /* LICENSE */,
+				B44FE5DA24D72231D87776FBF9202DE1 /* README.md */,
+				863FB146212A2B48FBC53860D2B4AC11 /* SolanaToken.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16CE6F00E581853747B045C4943D9DA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66EC0322E882FD0ADB5DFEB7E4D63B49 /* SolanaToken-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66381B558D8F9C616F68E1147491C4BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657E8656D4633BB17F89F6CEB4883F7E /* Pods-SolanaToken_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22AA02E503265D7EB2A76DBAEFDE7AA7 /* Pods-SolanaToken_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840D9C05432D5E7EA643E42BF891C030 /* Build configuration list for PBXNativeTarget "Pods-SolanaToken_Tests" */;
+			buildPhases = (
+				66381B558D8F9C616F68E1147491C4BA /* Headers */,
+				A788944B7874D1164EF999A749FBC500 /* Sources */,
+				D5692CDD35ED89DE0585F498F0AE1BA1 /* Frameworks */,
+				27EABDDE898E9DD2034978732C799553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA794C83CCE96784AF9F041C1D2B265B /* PBXTargetDependency */,
+			);
+			name = "Pods-SolanaToken_Tests";
+			productName = "Pods-SolanaToken_Tests";
+			productReference = 772C0A2A6781F6C8A3BE264B19030D53 /* Pods_SolanaToken_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		688D28EA9195F6CD5A9378D1F5582946 /* SolanaToken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7220DB9A05810F1C6BFE5CB1E0E683D5 /* Build configuration list for PBXNativeTarget "SolanaToken" */;
+			buildPhases = (
+				16CE6F00E581853747B045C4943D9DA0 /* Headers */,
+				68C5A1667D24A8721C0DBB44C4BC3595 /* Sources */,
+				F09A4B36B4FCD63B33469998305FED26 /* Frameworks */,
+				E92C93056DC27545B64D55DFEB80916A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolanaToken;
+			productName = SolanaToken;
+			productReference = 061769ED7AB7C21A92B466DFA75ED7A9 /* SolanaToken.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8DBAAF9182E177E9FEE28974BC7A5A3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22AA02E503265D7EB2A76DBAEFDE7AA7 /* Pods-SolanaToken_Tests */,
+				688D28EA9195F6CD5A9378D1F5582946 /* SolanaToken */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27EABDDE898E9DD2034978732C799553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92C93056DC27545B64D55DFEB80916A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B78BE1C4D2C2ABE752D56489929DCE3 /* tokens.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68C5A1667D24A8721C0DBB44C4BC3595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C2AA02D4004A98AC6DE06E2128566C5 /* SolanaToken-dummy.m in Sources */,
+				0E8EDAB1104D1391AE1C68A4090C3862 /* SolanaTokensList.swift in Sources */,
+				3F36A548663D14C304452B032692EC71 /* SolanaTokensListParser.swift in Sources */,
+				5D79CDCA30652CB2B164CA221484EE8F /* tokens-logo.json in Sources */,
+				EC1587DE05B891698ECF6FB2C2116922 /* tokens.json in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A788944B7874D1164EF999A749FBC500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63D593B00842AC35DD20E1200175DB4 /* Pods-SolanaToken_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA794C83CCE96784AF9F041C1D2B265B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SolanaToken;
+			target = 688D28EA9195F6CD5A9378D1F5582946 /* SolanaToken */;
+			targetProxy = 79AB391C15D9EBA2DD70626246D4F947 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		61253C221DC71C6AD3CE807DACAC2235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0695852A04685E11976E8FB78088A059 /* Pods-SolanaToken_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SolanaToken_Tests/Pods-SolanaToken_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SolanaToken_Tests/Pods-SolanaToken_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6BBAD9F6748CDB918E2AF8D00C1A150A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F2DE0486F20BF67672F0B1C0439EDF9 /* Pods-SolanaToken_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SolanaToken_Tests/Pods-SolanaToken_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SolanaToken_Tests/Pods-SolanaToken_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93EC397AF2E138B7A3A098CEF87E0254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D270E523F03B231BE24525D5AD6C31AF /* SolanaToken.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SolanaToken/SolanaToken-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SolanaToken/SolanaToken-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SolanaToken/SolanaToken.modulemap";
+				PRODUCT_MODULE_NAME = SolanaToken;
+				PRODUCT_NAME = SolanaToken;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5BDB3E1B41FB1EA8CE9B3263D7B4D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A4AC9BD454AA73C46F31C2D36E1251 /* SolanaToken.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SolanaToken/SolanaToken-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SolanaToken/SolanaToken-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SolanaToken/SolanaToken.modulemap";
+				PRODUCT_MODULE_NAME = SolanaToken;
+				PRODUCT_NAME = SolanaToken;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7220DB9A05810F1C6BFE5CB1E0E683D5 /* Build configuration list for PBXNativeTarget "SolanaToken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93EC397AF2E138B7A3A098CEF87E0254 /* Debug */,
+				F5BDB3E1B41FB1EA8CE9B3263D7B4D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840D9C05432D5E7EA643E42BF891C030 /* Build configuration list for PBXNativeTarget "Pods-SolanaToken_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BBAD9F6748CDB918E2AF8D00C1A150A /* Debug */,
+				61253C221DC71C6AD3CE807DACAC2235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

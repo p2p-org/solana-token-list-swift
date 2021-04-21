@@ -1,0 +1,6 @@
+framework module Pods_SolanaToken_Tests {
+  umbrella header "Pods-SolanaToken_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,13 +1,7 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '12.0'
 
-target 'SolanaToken_Example' do
+target 'SolanaToken_Tests' do
   pod 'SolanaToken', :path => '../'
-
-  target 'SolanaToken_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

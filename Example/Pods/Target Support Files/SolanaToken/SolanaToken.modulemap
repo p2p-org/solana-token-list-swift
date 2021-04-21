@@ -1,0 +1,6 @@
+framework module SolanaToken {
+  umbrella header "SolanaToken-umbrella.h"
+
+  export *
+  module * { export * }
+}

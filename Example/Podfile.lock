@@ -1,0 +1,16 @@
+PODS:
+  - SolanaToken (0.0.1)
+
+DEPENDENCIES:
+  - SolanaToken (from `../`)
+
+EXTERNAL SOURCES:
+  SolanaToken:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SolanaToken: 8cd001ff7405b25f9762315de34332d87701ad04
+
+PODFILE CHECKSUM: 61373d23cb758dfd31f41490bfd9940673884e13
+
+COCOAPODS: 1.10.1
