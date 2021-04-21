@@ -13,7 +13,7 @@ struct SolanaTokensList: Decodable {
     let keywords: [String]
     let tags: [String: SolanaTokenTag]
     let timestamp: String
-    let tokens: [SolanaToken]
+    var tokens: [SolanaToken]
 }
 
 public struct SolanaTokenTag: Decodable {
@@ -28,11 +28,12 @@ public struct SolanaToken: Decodable {
     public let name: String
     public let decimals: UInt
     public let logoURI: String?
+    let _tags: [String]
     public var tags: [SolanaTokenTag] = []
     public let extensions: SolanaTokenExtensions?
     
     enum CodingKeys: String, CodingKey {
-        case chainId, address, symbol, name, decimals, logoURI, extensions
+        case chainId, address, symbol, name, decimals, logoURI, extensions, _tags = "tags"
     }
 }
 
