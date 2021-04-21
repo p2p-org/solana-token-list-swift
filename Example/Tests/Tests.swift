@@ -2,7 +2,7 @@
 
 import Quick
 import Nimble
-import solana-token-list-swift
+import solana_token_list_swift
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {

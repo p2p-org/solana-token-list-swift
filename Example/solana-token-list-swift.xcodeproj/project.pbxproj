@@ -16,11 +16,11 @@
 		607FACE51AFB9204008FA782 /* solana-token-list-swift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "solana-token-list-swift_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		683C5C0E8F8DA5D9B1F32296 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		683C5C0E8F8DA5D9B1F32296 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		895DCC96E7BE603860DCAB5A /* Pods-solana-token-list-swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-solana-token-list-swift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-solana-token-list-swift_Tests/Pods-solana-token-list-swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		99B0267288655F857035BE6C /* Pods-solana-token-list-swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-solana-token-list-swift_Tests.release.xcconfig"; path = "Target Support Files/Pods-solana-token-list-swift_Tests/Pods-solana-token-list-swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AA8F74AB40C4F9449EC67A42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C205278737A3C254368447AE /* solana-token-list-swift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "solana-token-list-swift.podspec"; path = "../solana-token-list-swift.podspec"; sourceTree = "<group>"; };
+		AA8F74AB40C4F9449EC67A42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C205278737A3C254368447AE /* solana-token-list-swift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "solana-token-list-swift.podspec"; path = "../solana-token-list-swift.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,6 @@
 				895DCC96E7BE603860DCAB5A /* Pods-solana-token-list-swift_Tests.debug.xcconfig */,
 				99B0267288655F857035BE6C /* Pods-solana-token-list-swift_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

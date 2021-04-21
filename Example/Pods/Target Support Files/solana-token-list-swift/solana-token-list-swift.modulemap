@@ -1,0 +1,6 @@
+framework module solana_token_list_swift {
+  umbrella header "solana-token-list-swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

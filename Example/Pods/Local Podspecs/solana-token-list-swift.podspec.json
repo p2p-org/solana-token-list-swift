@@ -1,0 +1,22 @@
+{
+  "name": "solana-token-list-swift",
+  "version": "0.1.0",
+  "summary": "A short description of solana-token-list-swift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Chung Tran/solana-token-list-swift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Chung Tran": "bigearsenal@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Chung Tran/solana-token-list-swift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "solana-token-list-swift/Classes/**/*"
+}
