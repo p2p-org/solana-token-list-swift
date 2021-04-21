@@ -1,0 +1,7 @@
+use_frameworks!
+target 'solana-token-list-swift_Tests' do
+  pod 'solana-token-list-swift', :path => '../'
+  
+  pod 'Quick', '~> 2.2.0'
+    pod 'Nimble', '~> 8.0.7'
+end
