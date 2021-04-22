@@ -16,12 +16,12 @@ struct SolanaTokensList: Decodable {
     var tokens: [SolanaToken]
 }
 
-public struct SolanaTokenTag: Decodable {
+public struct SolanaTokenTag: Hashable, Decodable {
     public var name: String
     public var description: String
 }
 
-public struct SolanaToken: Decodable {
+public struct SolanaToken: Hashable, Decodable {
     public init(_tags: [String], chainId: Int, address: String, symbol: String, name: String, decimals: UInt, logoURI: String?, tags: [SolanaTokenTag] = [], extensions: SolanaTokenExtensions?) {
         self._tags = _tags
         self.chainId = chainId
@@ -50,7 +50,7 @@ public struct SolanaToken: Decodable {
     }
 }
 
-public struct SolanaTokenExtensions: Decodable {
+public struct SolanaTokenExtensions: Hashable, Decodable {
     public let website: String?
     public let bridgeContract: String?
 }
